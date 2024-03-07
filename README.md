@@ -54,7 +54,7 @@ ubuntu@:~$ UnixPrimer
 ```
 # 6. Going from 'A' to 'B'
 
-We are in the home directory on the computer but we want to work in the new Learning_unix directory. To change directories in Unix, we use the cd command:
+We are in the home directory on the computer but we want to work in the new UnixPrimer directory. To change directories in Unix, we use the cd command:
 ```ruby
 $ cd UnixPrimer
 ```
@@ -339,17 +339,17 @@ cat opening_lines.txt > file_copy.txt
 ```
 # 24. Counting characters in a file
 ```ruby
-~/Learning_unix$ ls
+~/UnixPrimer$ ls
 opening_lines.txt
 
-~/Learning_unix$ ls -l
+~/UnixPrimer$ ls -l
 total 4
 -rw-rw-r-- 1 ubuntu ubuntu 42 Jun 15 04:13 opening_lines.txt
 
-~/Learning_unix$ wc opening_lines.txt
+~/UnixPrimer$ wc opening_lines.txt
  2  7 42 opening_lines.txt
 
-~/Learning_unix$ wc -l opening_lines.txt
+~/UnixPrimer$ wc -l opening_lines.txt
 2 opening_lines.txt
 ```
 The ```ls -l``` option shows us a long listing, which includes the size of the file in bytes (in this case ‘42’). Another way of finding this out is by using Unix’s ```wc``` command (word count). By default this tells you many lines, words, and characters are in a specified file (or files), but you can use command-line options to give you just one of those statistics (in this case we count lines with ```wc -l```).
