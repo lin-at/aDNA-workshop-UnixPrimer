@@ -48,9 +48,9 @@ As you learn Unix you will frequently type commands that don’t seem to work. M
 # 5. Making new directories
 If we want to make a new directory (e.g. to store some work related data), we can use the ```mkdir``` command:
 ```ruby
-ubuntu@:~$ mkdir UnixPrimer
-ubuntu@:~$ ls
-ubuntu@:~$ UnixPrimer
+$ mkdir UnixPrimer
+$ ls
+$ UnixPrimer
 ```
 # 6. Going from 'A' to 'B'
 
