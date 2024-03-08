@@ -52,9 +52,9 @@ $ mkdir UnixPrimer
 $ ls
 $ UnixPrimer
 ```
-# 6. Going from 'A' to 'B'
+# 6. Going from 'A' to 'B' 
 
-We are in the home directory on the computer but we want to work in the new UnixPrimer directory. To change directories in Unix, we use the cd command:
+We are in the home directory on the computer but we want to work in the new UnixPrimer directory. To change directories in Unix, we use the ```cd``` command:
 ```ruby
 $ cd UnixPrimer
 ```
@@ -69,7 +69,7 @@ $ cd Inner_directory/
 ```
 
 We created the two directories in separate steps, but it is possible to use the ```mkdir``` command to do this all in one step.
-Like most Unix commands, ```mkdir``` supports _command-line_ options which let you alter its behavior and functionality. Command-like options are — as the name suggests — optional arguments that are placed after the command name. They often take the form of single letters (following a dash). If we had used the -p option of the ```mkdir``` command we could have done this in one step. E.g.
+Like most Unix commands, ```mkdir``` supports _command-line_ options which let you alter its behavior and functionality. Command-like options are — as the name suggests — optional arguments that are placed after the command name. They often take the form of single letters (following a dash). If we had used the ```-p``` option of the ```mkdir``` command we could have done this in one step. E.g.
 ```ruby
 mkdir -p Outer_directory/Inner_directory
 ```
